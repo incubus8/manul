@@ -2,3 +2,4 @@
 /manul.test
 /.last-testcase
 vendor/github.com/reconquest/coproc.bash/
+.idea

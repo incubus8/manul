@@ -14,13 +14,10 @@ import (
 const tagMetaGoImport = "meta[name=go-import]"
 
 // NOTE: This list is copied from
-// https://github.com/golang/go/blob/10538a8f9e2e718a47633ac5a6e90415a2c3f5f1/src/cmd/go/vcs.go#L821-L861
+// https://githu	b.com/golang/go/blob/10538a8f9e2e718a47633ac5a6e90415a2c3f5f1/src/cmd/go/vcs.go#L821-L861
 var wellKnownSites = []string{
 	"github.com/",
-	"bitbucket.org/",
-	"hub.jazz.net/git/",
-	"git.apache.org/",
-	"git.openstack.org/",
+	"gitlab.bri.co.id/",
 }
 
 func getVendorSubmodules() (map[string]string, error) {
